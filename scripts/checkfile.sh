@@ -1,15 +1,15 @@
 #! /bin/bash
 #Pass filepath as an argument when running check.sh
 
-if [ -d $1 ];
+if test -d $1;
 then
 	echo "This is Directory."
-elif [ -x $1 ];
+elif test -x $1;
 then
 	echo "This is Execuable file."
-elif [ -f $1 ];
+elif tets -f $1;
 then
 	echo "This is File."
 else
-	echo "Invalid" 
+	echo "Niether Directory or File" 
 fi
