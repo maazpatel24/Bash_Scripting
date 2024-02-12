@@ -2,9 +2,12 @@
 read -p "Enter name: " name
 read -p "Enter number: " num
 
-if [ $name = 'abc' ]
+NAME=abc
+NUM=123
+
+if [ $name = $NAME ]
 then
-	if [ $num = 123 ]
+	if [ $num = $NUM ]
 	then
 		echo Both Name: $name and Number: $num entered are correct.
 	else
