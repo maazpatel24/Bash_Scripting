@@ -5,7 +5,7 @@ echo Press 2 to print Gujarati:
 echo Press 3 to print Maths:
 echo Press 4 to Exit:
 read key
- 
+
 case $key in
 	1)
 	echo English
@@ -22,3 +22,4 @@ case $key in
 	*)
 	echo invalid
 esac
+
